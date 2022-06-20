@@ -1,0 +1,31 @@
+@mixin box ($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin button ($w, $c) {
+    width: $w;
+    border: 2px solid $c;
+    border-radius: 40px;
+    text-align: center;
+}
+
+@mixin ava_pic ($w, $l, $c) {
+    width: $w;
+    length: $l;
+    border-radius: 40px;
+    text-align: center;
+}
+
+@mixin display_flex ($fd, $jc) {
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+}
+
+@mixin text_style ($fs, $fw, $lh, $ls){
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    letter-spacing: $ls;
+}
